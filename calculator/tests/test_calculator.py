@@ -11,4 +11,10 @@ def test_subtraction():
     assert calc.subtract(5, 3) == 2
 
 # tests/test_calculator.py
+def test_multiplication():
+    calc = Calculator()
+    assert calc.multiply(2, 3) == 6
 
+def test_division():
+    calc = Calculator()
+    assert calc.divide(6, 2) == 3
