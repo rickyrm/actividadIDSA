@@ -14,7 +14,7 @@ class Calculator:
             raise ValueError("Cannot divide by zero")
         return a / b
 
-    def babylonian_sqrt(n, precision=0.001):
+    def babylonian_sqrt(self, n, precision=0.001):
         if n < 0:
             raise ValueError("Cannot take square root of a negative number")
         x = n
@@ -25,7 +25,7 @@ class Calculator:
         return y
 
     def sqrt(self, n):
-        return self._babylonian_sqrt(n)
+        return self.babylonian_sqrt(n)
 
 
 

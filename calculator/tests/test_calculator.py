@@ -21,5 +21,5 @@ def test_division():
 
 def test_square_root():
     calc = Calculator()
-    assert abs(calc.sqrt(9) - 3) < 0.001
-    assert abs(calc.sqrt(2) - 1.414) < 0.001
+    assert calc.sqrt(9) == pytest.approx(3, rel=1e-3)
+    assert calc.sqrt(2) == pytest.approx(1.414, rel=1e-3)
