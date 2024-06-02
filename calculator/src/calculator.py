@@ -1,15 +1,15 @@
 # src/calculator.py
-class Calculator:
-    def add(self, a, b):
+class Calculadora:
+    def sumar(self, a, b):
         return a + b
 
-    def subtract(self, a, b):
+    def restar(self, a, b):
         return a - b
 
-    def multiply(self, a, b):
+    def multiplicar(self, a, b):
         return a * b
 
-    def divide(self, a, b):
+    def dividir(self, a, b):
         if b == 0:
             raise ValueError("Cannot divide by zero")
         return a / b
