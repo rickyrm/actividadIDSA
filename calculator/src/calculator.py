@@ -11,12 +11,12 @@ class Calculadora:
 
     def dividir(self, a, b):
         if b == 0:
-            raise ValueError("Cannot divide by zero")
+            raise ValueError("No se puede dividir entre cero")
         return a / b
 
     def babylonian_sqrt(self, n, precision=0.001):
         if n < 0:
-            raise ValueError("Cannot take square root of a negative number")
+            raise ValueError("No se puede sacar la raiz cuadrada de un numero negativo")
         x = n
         y = (x + n / x) / 2
         while abs(x - y) > precision:
