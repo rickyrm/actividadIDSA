@@ -14,3 +14,8 @@ def test_resta():
 def test_multiplicacion():
     calc = Calculadora()
     assert calc.multiplicar(2, 3) == 6
+
+def test_division():
+    calc = Calculadora()
+    assert calc.dividir(6, 2) == 3
+
