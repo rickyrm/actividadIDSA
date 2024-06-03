@@ -4,11 +4,11 @@ from src.calculator import Calculadora
 
 def test_suma():
     calc = Calculadora()
-    assert calc.sumar(1, 2) == 3
+    assert calc.suma(1, 2) == 3
 
 def test_resta():
     calc = Calculadora()
-    assert calc.restar(5, 3) == 2
+    assert calc.resta(5, 3) == 2
 
 # tests/test_calculator.py
 def test_multiplicacion():

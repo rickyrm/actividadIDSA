@@ -5,6 +5,10 @@ class Calculadora:
     def resta(self, a, b):
         return a - b
 
+    def multiplicar(self, a, b):
+        return a * b
+
+
 
 
 
