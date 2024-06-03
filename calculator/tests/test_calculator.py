@@ -11,3 +11,6 @@ def test_resta():
     assert calc.restar(5, 3) == 2
 
 # tests/test_calculator.py
+def test_multiplicacion():
+    calc = Calculadora()
+    assert calc.multiplicar(2, 3) == 6
